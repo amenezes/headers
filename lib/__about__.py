@@ -12,7 +12,7 @@ __title__ = "headers"
 __summary__ = ("Python script to get all http secure headers from Alexa top sites.")
 __uri__ = "http://github.com/riramar/headers / http://github.com/amenezes"
 
-__version__ = "0.1.1"
+__version__ = "0.1.4"
 
 __author__ = "The headers developers team"
 __email__ = "ricardo_iramar@gmail.com / alexandre.fmenezes@gmail.com"
