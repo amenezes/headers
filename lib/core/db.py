@@ -1,16 +1,14 @@
 import mysql.connector
 
-#conn = None
-
 class DB:
 
     def __init__(self, settings):
-        self.settings = settings
         self.conn = None
+        self.settings = settings
 
     def get_db_connection(self):
-        if conn is None:
-            conn = mysql.connector.connect(
+        if self.conn is None:
+            self.conn = mysql.connector.connect(
                 user=self.settings['db']['username'],
                 password=self.settings['db']['password'],
                 host=self.settings['db']['host'],
