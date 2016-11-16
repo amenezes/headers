@@ -97,4 +97,6 @@ To import you can use this command:
 PHP pages with Highcharts graphics.  
 
 Sample page:  
-![Strict-Transport-Security Header](docs/strict-transport-security.png)
+![Strict-Transport-Security Header](docs/strict-transport-security.png)  
+
+![Dashboard Sample Page](docs/dashboard_sample_page.png)
