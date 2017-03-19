@@ -1,0 +1,7 @@
+ratings:
+  paths:
+  - lib/**
+  - web/**
+  - "**.py"
+exclude_paths:
+- web/static/**
