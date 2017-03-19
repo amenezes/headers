@@ -4,14 +4,14 @@ from urlparse import urlparse
 import socket
 import httplib
 
-from lib.utils.config import DEFAULT_CONFIG_FILE
-from lib.utils.config import HTTP_SCHEME
-from lib.utils.config import HTTPS_SCHEME
-from lib.utils.config import NO_SCHEME
-from lib.utils.config import HTTP_STATUS_CODE
-from lib.utils.config import SITE
+from configurations import CONFIGURATIONS
+from configurations import HTTP_SCHEME
+from configurations import HTTPS_SCHEME
+from configurations import NO_SCHEME
+from configurations import HTTP_STATUS_CODE
+from configurations import SITE
 
-class Scan(object):
+class Scan:
 
     def __init__(self, settings):
         self.settings = settings

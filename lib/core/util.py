@@ -1,9 +1,7 @@
 import csv
 import json
 
-from configurations import CONFIGURATIONS
-
-class Util(object):
+class Util:
 
     def get_dictsites(self, filename):
         dictsites = []
@@ -13,6 +11,6 @@ class Util(object):
                 dictsites.append(row)
         return dictsites
 
-    def load_config(self, filename=CONFIGURATIONS):
+    def load_config(self, filename):
         with open(filename) as settings_file:
             return json.load(settings_file)
