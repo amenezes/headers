@@ -1,6 +1,6 @@
 import mysql.connector
 
-class DB:
+class DB(object):
 
     def __init__(self, settings):
         self.conn = None
@@ -15,6 +15,21 @@ class DB:
                 database=self.settings['db']['database']
             )
         return self.conn
+
+    def query(self, query):
+        self.conn = self.get_db_connection()
+        cursor = self.conn.cursor()
+        results = ''
+        try:
+            cursor.execute(query)
+            #cursor.executemany(query)
+            results = cursor.fetchall()
+        except:
+            print("[!] error: unable to fecth data")
+        finally:
+            cursor.close()
+            #self.close_db_connection()
+        return results
 
     def close_db_connection(self):
         self.conn = self.get_db_connection()

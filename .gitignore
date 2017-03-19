@@ -2,3 +2,9 @@
 *.py[cod]
 lib/*.py[cod]
 .swap
+dist/
+headers.egg-info
+build/*
+appsec.yml
+deploy/*
+appspec.yml
