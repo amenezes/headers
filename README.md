@@ -1,5 +1,5 @@
 ## SecureHeaders  
-[![Build Status](https://travis-ci.org/amenezes/headers.svg?branch=master)](https://travis-ci.org/amenezes/headers)
+[![Build Status](https://travis-ci.org/amenezes/secureheaders.svg?branch=master)](https://travis-ci.org/amenezes/secureheaders)
 <a href="https://codeclimate.com/github/amenezes/headers"><img src="https://codeclimate.com/github/amenezes/headers/badges/gpa.svg" /></a>
 [![Dependency Status](https://gemnasium.com/badges/github.com/amenezes/headers.svg)](https://gemnasium.com/github.com/amenezes/headers)
 
