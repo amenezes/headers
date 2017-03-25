@@ -1,0 +1,24 @@
+engines:
+    duplication:
+      enabled: true
+      config:
+        languages:
+          - javascript:
+          - python:
+    fixme:
+        enabled: true
+    radon:
+      enabled: true
+    pep8:
+      enabled: true
+    markdownlint:
+      enabled: true
+exclude_paths:
+- "web/static/dist/*"
+- "web/static/echarts/**"
+- "web/static/fastclick/*"
+- "web/static/font-awesome/*"
+- "web/static/images/*"
+- "web/static/jquery/*"
+- "web/static/nprogress/*"
+- "web/static/pnotify/*"
