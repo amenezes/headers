@@ -1,9 +1,9 @@
-## SecureHeaders  
+# SecureHeaders  
 [![Build Status](https://travis-ci.org/amenezes/secureheaders.svg?branch=master)](https://travis-ci.org/amenezes/secureheaders)
 <a href="https://codeclimate.com/github/amenezes/headers"><img src="https://codeclimate.com/github/amenezes/headers/badges/gpa.svg" /></a>
 [![Dependency Status](https://gemnasium.com/badges/github.com/amenezes/headers.svg)](https://gemnasium.com/github.com/amenezes/headers)
 
-OWASP SecureHeaders Project.  
+OWASP SecureHeaders Project  
 
 SecureHeaders project consist in two main modules:
 1. an engine to scan a list of sites fastly and with minimal resources;
@@ -16,40 +16,40 @@ help make web applications more secure.
 
 ### Table of Contents
 
-1. [Architecture](#Architecture)  
-2. [Web Interface](#Web-Interface)  
-2.1 [Dependencies](#Dependencies)  
-2.2 [Installation](#Installation)  
-3. [Scanner](#Scanner)  
-3.1 [Dependencies](#Dependencies)  
-3.2 [Installation](#Installation)
-4. [More](#More)  
+1. [Architecture](#Architecture)
+2. [Web Interface](#Web-Interface)
+2.1. [Dependencies](#Dependencies)
+2.2. [Installation](#Installation)
+3. [Scanner](#Scanner)
+3.1. [Dependencies](#Dependencies)
+3.2. [Installation](#Installation)
+4. [More](#More)
 
 ### Architecture
 
-![SecureHeaders Architecture](https://dl.dropboxusercontent.com/u/6427240/oshp/secureheaders.png)  
+![SecureHeaders Architecture](https://dl.dropboxusercontent.com/u/6427240/oshp/secureheaders.png)
 
 ### Web Interface
 
-![SecureHeaders Main Page](https://dl.dropboxusercontent.com/u/6427240/oshp/oshp_main.png)  
+![SecureHeaders Main Page](https://dl.dropboxusercontent.com/u/6427240/oshp/oshp_main.png)
 The SecureHeaers webui provide an easyly way to see and search all data
 gathering with scanner module. For now it's possible to see a dashboard
 with main HTTP secure headers documented OWASP web page and also provide
 a way to search secure headers set in each page analyzed as your adoption
 by other users.
 
-##### Dependencies  
+#### Dependencies  
 - docker engine
 - docker-compose
 
-##### Installation
+#### Installation
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 ### Scanner
 
-[![asciicast](https://asciinema.org/a/ehee1olc3qys1wbdz1zqmiu84.png)](https://asciinema.org/a/ehee1olc3qys1wbdz1zqmiu84)  
+[![asciicast](https://asciinema.org/a/ehee1olc3qys1wbdz1zqmiu84.png)](https://asciinema.org/a/ehee1olc3qys1wbdz1zqmiu84)
 The scanner module it's responsible to catch all secure headers data from csv list.
 
 > notice: the module work, however it is under rebuild process to make it more effective,
