@@ -5,6 +5,7 @@ from lib.utils.config import DEFAULT_CONFIG_FILE
 
 class Util(object):
 
+
     def get_dictsites(self, filename):
         dictsites = []
         with open(filename, 'rU') as f:

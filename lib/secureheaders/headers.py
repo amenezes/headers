@@ -5,6 +5,7 @@ class Headers(object):
 
 class CSP(Header):
 
+
     def __init__(self):
         self.option = {
             'report-uri': '',
