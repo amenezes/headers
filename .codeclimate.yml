@@ -13,6 +13,14 @@ engines:
     enabled: true
   markdownlint:
     enabled: true
+ratings:
+  path:
+    - conf/**
+    - docker/**
+    - "**.py"
+    - "**.md"
+    - "lib/**.py"
+    - "web/**.py"
 exclude_paths:
 - "web/static/dist/*"
 - "web/static/echarts/**"
