@@ -1,6 +1,6 @@
 # SecureHeaders  
 [![Build Status](https://travis-ci.org/amenezes/secureheaders.svg?branch=master)](https://travis-ci.org/amenezes/secureheaders)
-<a href="https://codeclimate.com/github/amenezes/headers"><img src="https://codeclimate.com/github/amenezes/headers/badges/gpa.svg" /></a>
+[![Code Quality](https://codeclimate.com/github/amenezes/headers/badges/gpa.svg)](https://codeclimate.com/github/amenezes/headers)
 [![Dependency Status](https://gemnasium.com/badges/github.com/amenezes/headers.svg)](https://gemnasium.com/github.com/amenezes/headers)
 
 OWASP SecureHeaders Project  
@@ -13,17 +13,6 @@ provide insight and feedback about the use of HTTP secure headers.
 HTTP secure headers are resources known to some and despised by others.
 However it's a fact that the versatility and security provided by feature can
 help make web applications more secure.
-
-### Table of Contents
-
-1. [Architecture](#Architecture)
-2. [Web Interface](#Web-Interface)
-2.1. [Dependencies](#Dependencies)
-2.2. [Installation](#Installation)
-3. [Scanner](#Scanner)
-3.1. [Dependencies](#Dependencies)
-3.2. [Installation](#Installation)
-4. [More](#More)
 
 ### Architecture
 
