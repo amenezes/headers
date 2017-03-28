@@ -6,37 +6,26 @@
 #
 # gitattributes for common files
 #
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
-*.md       text
-*.adoc     text
-*.textile  text
-*.mustache text
+*.doc	     linguist-documentation
+*.docx     linguist-documentation
+*.DOCX     linguist-documentation
+*.pdf      linguist-documentation
+*.PDF	     linguist-documentation
+*.md       linguist-documentation
+*.textile  linguist-documentation
+
 *.csv      text
-*.tab      text
-*.tsv      text
 *.sql      text
 
 #
 # gitattributes for graphics files
 #
-*.png  binary
-*.jpg  binary
-*.jpeg binary
-*.gif  binary
-*.tif  binary
-*.tiff binary
-*.ico  binary
-*.svg  binary
-*.eps  binary
+*.png  linguist-documentation
+*.jpg  linguist-documentation
+*.jpeg linguist-documentation
+*.gif  linguist-documentation
+*.ico  linguist-documentation
+*.svg  linguist-documentation
 
 #
 # gitattributes for python files
@@ -56,14 +45,8 @@
 *.pyc 	binary
 *.pyd		binary
 *.pyo 	binary
+
 # Make GitHub ignore vendor libraries while computing language stats.
 # See https://github.com/github/linguist#overrides.
-
-web/static/dist/js/*    linguist-vendored=true
-web/static/echarts/*       linguist-vendored=true
-web/static/fastclick/lib/*    linguist-vendored=true
-web/static/font-awesome/*    linguist-vendored=true
-web/static/images/*    linguist-vendored=true
-web/static/jquery/dist/*    linguist-vendored=true
-web/static/nprogress/*    linguist-vendored=true
-web/static/pnotify/dist/*    linguist-vendored=true
+web/static/*          linguist-vendored
+web/static/build/*    linguist-vendored=false
