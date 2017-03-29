@@ -21,6 +21,6 @@ RUN apk add --no-cache py2-pip py-setuptools gcc make build-base python2-dev git
 
 EXPOSE 5000
 
-COPY docker/docker-entrypoint.sh /docker-entrypoint.sh
+COPY entrypoint/docker-entrypoint.sh /docker-entrypoint.sh
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
