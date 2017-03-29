@@ -46,6 +46,11 @@
 *.pyd		binary
 *.pyo 	binary
 
+#
+# gitattributes for adjust HTML templates as python
+#
+*.html linguist-language=Python
+
 # Make GitHub ignore vendor libraries while computing language stats.
 # See https://github.com/github/linguist#overrides.
 web/static/dist/js/*          linguist-vendored
