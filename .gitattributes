@@ -61,4 +61,5 @@ web/static/images/*           linguist-vendored
 web/static/jquery/dist/*      linguist-vendored
 web/static/nprogress/*        linguist-vendored
 web/static/pnotify/dist/*     linguist-vendored
+web/static/pnotify/dist/pnotify.js linguist-vendored
 web/static/build/*            linguist-vendored=false
